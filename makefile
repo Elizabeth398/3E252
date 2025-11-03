@@ -6,3 +6,10 @@ bin/punteros : src/punteros.cpp
 
 ejecutar : bin/punteros	
 	./bin/punteros
+
+bin/ejemplo : src/ejemplo.cpp
+	c++ src/ejemplo.cpp -o bin/ejemplo -Iinclude -lftxui-screen
+
+ejemplo : bin/ejemplo
+	./bin/ejemplo
+
