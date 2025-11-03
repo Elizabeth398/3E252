@@ -66,7 +66,7 @@ int main()
     gestor.Agregar(Dibujo(70, 10, cactus1, ftxui::Color::Green));      // cactus verde
     gestor.Agregar(Dibujo(60, 13, flor1, ftxui::Color::Magenta2));      // flor rosa
     gestor.Agregar(Dibujo(50, 11, cactus1, ftxui::Color::Green));      // cactus verde
-    gestor.Agregar(Dibujo(35, 13, flor1, ftxui::Color::Magenta2));      // flor rosa
+    gestor.Agregar(Dibujo(35, 13, flor1, ftxui::Color::Magenta));      // flor rosa
     gestor.Agregar(Dibujo(20, 10, cactus1, ftxui::Color::Green));      // cactus verde
     gestor.Agregar(Dibujo(8, 13, flor1, ftxui::Color::Magenta2));      // flor rosa
  
